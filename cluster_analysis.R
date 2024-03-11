@@ -58,7 +58,7 @@ names <- data_km$country
 df <- subset(data_km, select = -country)
 rownames(df) <- names
 
-#Standardization
+# Standardization
 df <- scale(df)
 
 # Removing outliers
